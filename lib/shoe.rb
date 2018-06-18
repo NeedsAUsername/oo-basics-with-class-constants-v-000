@@ -8,7 +8,7 @@ class Shoe
     @brand = brand
     self.BRANDS.each do |current_brands|
         if current_brands != brand
-            BRANDS << brand
+            self.BRANDS << brand
         end
     end
   end
